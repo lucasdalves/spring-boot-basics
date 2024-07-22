@@ -3,6 +3,8 @@ package com.devsuperior.hrpayroll.entities;
 import java.io.Serializable;
 
 public class Worker implements Serializable {
+    private static final long serialVersUID = 1L;
+
     private Long id;
     private String name;
     private double DailyIncome;
