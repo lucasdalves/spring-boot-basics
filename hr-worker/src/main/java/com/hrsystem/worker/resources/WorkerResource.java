@@ -13,7 +13,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/workers")
-public class WorkerResource {
+public class
+    WorkerResource {
 
     @Autowired
     private WorkerRepository repository;
